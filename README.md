@@ -3,9 +3,30 @@
 새로 시작하는 기획 프로젝트입니다. 내용은 정해지는 대로 채워 넣습니다.
 
 ## 다른 컴퓨터에서 이어서 하기
-1. 이 저장소를 받습니다: `git clone <저장소 주소>`
-2. 그 폴더에서 Claude Code를 열고 "스타 기획 이어서 하자"라고 말합니다.
-3. 작업이 끝나면 "깃허브에 올려줘"라고 하면 변경 내용을 올립니다.
+
+저장소가 **비공개**라서 받을 때 깃허브 로그인(godelay 계정)이 필요해요.
+
+### 방법 1. 명령어로 받기
+1. Git이 없으면 https://git-scm.com 에서 설치 (옵션은 기본값 그대로).
+2. 받아둘 폴더(예: 문서)에서 빈 곳 우클릭 → **터미널에서 열기**.
+3. 아래를 붙여넣고 엔터:
+   ```
+   git clone https://github.com/godelay/santatellmegirl.git
+   ```
+4. 깃허브 로그인 창이 뜨면 **godelay 계정**으로 로그인 (처음 한 번만).
+5. `santatellmegirl` 폴더가 생기고, 안에 README와 기획노트 00~05가 들어 있어요.
+
+### 방법 2. GitHub Desktop (명령어 없이)
+1. https://desktop.github.com 설치 → godelay 계정으로 로그인.
+2. **Clone a repository** → `santatellmegirl` 선택 → Clone.
+
+### 받은 다음
+1. VS Code에서 **파일 → 폴더 열기** → `santatellmegirl` 폴더.
+2. Claude Code에서 "스타 기획 이어서 하자"라고 말하기.
+3. 끝나면 "깃허브에 올려줘"라고 하면 변경 내용을 올려줘요.
+4. 다른 컴퓨터에서 이미 받아둔 적이 있으면, 시작 전에 "깃허브에서 최신으로 받아줘"라고 하기 (`git pull`).
+
+> 노트만 읽을 거면 깃허브 사이트에서 초록색 **Code → Download ZIP**도 돼요. 단, 이렇게 받으면 고친 내용을 다시 올릴 수 없어요.
 
 ## 지금까지 (11/17)
 - `기획노트/00-astronote-기존기획.md` — Astronote 기존 기획 + astronote.me 현황
